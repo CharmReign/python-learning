@@ -1,0 +1,4 @@
+# Packages are added here as the course needs them.
+# Install with:  pip install -r requirements.txt
+
+pytest>=8.0
