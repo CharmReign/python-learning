@@ -1,7 +1,7 @@
 """
 Lesson 2: Basic Data Types
 ===========================
-Run this file:  python 01_fundamentals\\02_data_types.py
+Run this file:  python 01_fundamentals/02_data_types.py
 """
 
 # int: whole numbers (no size limit in Python, unlike Java's int/long)

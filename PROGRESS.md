@@ -1,23 +1,17 @@
-# Progress Tracker
+# My Progress
 
-**Started:** 2026-11-04
-**Current phase:** 1 (Fundamentals)
-**Current lesson:** 1–2: What Python is, Variables & Data Types
+Fill this in as you go. Writing down what was hard is one of the fastest ways to improve.
 
----
-
-## Lesson log
-
-### Lesson 1–2: Python basics, Variables & Data Types
-- **Status:** 🟡 In progress
-- **Concepts understood:**
-- **Exercises completed:**
-  - [ ] Exercise 1: Personal profile card
-- **Areas where I struggled:**
-- **Skills that need more practice:**
-- **Next recommended lesson:** Lesson 3, Strings & Numbers
+**Date started:**
+**Current lesson:**
 
 ---
 
-## Running notes from my instructor
-- You asked for Python vs. Java comparisons, so they're included where useful.
+## Lesson 1–2: Variables & Data Types
+- [ ] Ran `00_hello.py`, `01_variables.py`, `02_data_types.py`
+- [ ] Finished Exercise 1 (Personal Profile Card)
+- **What I understood:**
+- **What was hard:**
+- **What I want to practice more:**
+
+<!-- Copy the block above for each new lesson. -->

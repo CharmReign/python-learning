@@ -1,3 +1,3 @@
 # Phase 5: AI & Automation
 
-Lessons are added here once Phase 4 is complete. See [../ROADMAP.md](../ROADMAP.md).
+🔜 Coming soon. Lessons will be added here step by step. See [../ROADMAP.md](../ROADMAP.md).

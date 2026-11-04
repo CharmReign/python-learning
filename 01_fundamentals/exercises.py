@@ -2,7 +2,7 @@
 Phase 1 Exercises
 =================
 Write your solutions below each exercise. Run with:
-    python 01_fundamentals\\exercises.py
+    python 01_fundamentals/exercises.py
 """
 
 # ---------------------------------------------------------------------------
@@ -25,4 +25,14 @@ years_of_experience = "2"
 # ---------------------------------------------------------------------------
 
 # Your code here:
+
+
+
+# ---------------------------------------------------------------------------
+# HINTS (try on your own first!)
+# - print() can show several things at once, separated by commas: print(x, y)
+# - type(x) tells you the type of x
+# - int("5") turns the text "5" into the number 5
+# - The one-line swap trick is in 01_variables.py
+# ---------------------------------------------------------------------------
 

@@ -1,3 +1,3 @@
 # Phase 3: Advanced Python
 
-Lessons are added here once Phase 2 is complete. See [../ROADMAP.md](../ROADMAP.md).
+🔜 Coming soon. Lessons will be added here step by step. See [../ROADMAP.md](../ROADMAP.md).

@@ -1,7 +1,7 @@
 """
 Lesson 1: Variables
 ====================
-Run this file:  python 01_fundamentals\\01_variables.py
+Run this file:  python 01_fundamentals/01_variables.py
 Read the comments, run it, then CHANGE things and run it again.
 """
 

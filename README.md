@@ -1,55 +1,84 @@
-# Python Learning Environment
+# Learn Python: Beginner to Advanced
 
-My personal path from zero to advanced Python developer: learning by doing.
+A free, hands-on Python course for **complete beginners**. No experience needed.
 
-## Folder layout
+You learn by doing: read a short lesson file, run it, change it, then solve an exercise.
 
-| Folder | What goes there |
-|---|---|
-| `01_fundamentals/` | Phase 1: syntax, variables, conditions, loops, functions, collections |
-| `02_intermediate/` | Phase 2: comprehensions, exceptions, files, OOP, JSON, APIs |
-| `03_advanced/` | Phase 3: decorators, generators, async, testing, design patterns |
-| `04_practical_projects/` | Phase 4: databases, FastAPI, auth, Docker, deployment, plus phase projects |
-| `05_ai_automation/` | Phase 5: NumPy/Pandas, scraping, AI APIs, agents, RAG |
-| `tests/` | pytest tests for my code |
+---
 
-Lesson files are added **as I reach each topic**. There are no empty placeholder files.
+## How to start (about 10 minutes)
 
-## Key documents
+### 1. Install Python
+Download it from [python.org/downloads](https://www.python.org/downloads/).
+**Windows:** on the first install screen, tick **"Add Python to PATH"**.
 
-- [ROADMAP.md](ROADMAP.md): the full learning plan
-- [PROGRESS.md](PROGRESS.md): what I've completed, where I struggled, what's next
+Check that it worked by opening a terminal and typing:
 
-## Setup (one time)
+```
+python --version
+```
 
-```powershell
-cd D:\Files\reign\python-learning
+(On Mac/Linux, use `python3` instead of `python` everywhere in this guide.)
+
+### 2. Get this project
+- **Easy way:** click the green **Code** button on GitHub → **Download ZIP** → unzip it.
+- **With Git:** `git clone https://github.com/CharmReign/python-learning.git`
+
+### 3. Open a terminal inside the project folder
+In VS Code: **File → Open Folder**, then **Terminal → New Terminal**.
+
+### 4. Create a virtual environment (one time)
+A virtual environment is a private Python setup just for this project, so its packages don't mix with the rest of your computer.
+
+```bash
 python -m venv .venv
 ```
 
-## Every session
+Activate it each time you open a new terminal:
 
-```powershell
-cd D:\Files\reign\python-learning
-.\.venv\Scripts\Activate.ps1        # prompt now starts with (.venv)
-python 01_fundamentals\00_hello.py   # run a file
-deactivate                           # when finished
-```
+| System | Command |
+|---|---|
+| Windows (PowerShell) | `.\.venv\Scripts\Activate.ps1` |
+| Mac / Linux | `source .venv/bin/activate` |
 
-If PowerShell refuses to run `Activate.ps1` ("running scripts is disabled"), run this once:
+You'll see `(.venv)` at the start of the line when it's active.
+If Windows says *"running scripts is disabled"*, run this once: `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned`
 
-```powershell
-Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
-```
+Then install the tools:
 
-Install dependencies (after activating):
-
-```powershell
+```bash
 pip install -r requirements.txt
 ```
 
-Run tests:
-
-```powershell
-pytest
+### 5. Run your first program
+```bash
+python 01_fundamentals/00_hello.py
 ```
+
+If you see `Hello, Python!`, you're ready. 🎉
+
+---
+
+## How to use each lesson
+
+1. **Read** the lesson file. The comments explain every line.
+2. **Run** it and compare the output with the code.
+3. **Break it on purpose.** Change values, delete things, and read the error messages.
+4. **Solve** the exercise in `exercises.py` yourself before looking anything up.
+5. **Track** your progress in [PROGRESS.md](PROGRESS.md).
+
+Stuck? Try the hints at the bottom of each exercise first. Searching the error message is a real developer skill too.
+
+---
+
+## What's inside
+
+| Folder | Topics | Status |
+|---|---|---|
+| `01_fundamentals/` | variables, data types, conditions, loops, functions, lists & dictionaries | ✅ Lessons 1–2 ready, more coming |
+| `02_intermediate/` | error handling, files, classes (OOP), JSON, APIs | 🔜 Coming soon |
+| `03_advanced/` | decorators, generators, async, testing | 🔜 Coming soon |
+| `04_practical_projects/` | databases, FastAPI, Docker, Git, deployment | 🔜 Coming soon |
+| `05_ai_automation/` | data analysis, web scraping, automation, AI apps | 🔜 Coming soon |
+
+The full plan is in [ROADMAP.md](ROADMAP.md).
